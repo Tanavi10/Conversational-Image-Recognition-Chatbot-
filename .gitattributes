@@ -1,0 +1,4 @@
+datasets/coco/annotations/instances_train2017.json filter=lfs diff=lfs merge=lfs -text
+datasets/vqa/v2_mscoco_val2014_annotations.json filter=lfs diff=lfs merge=lfs -text
+datasets/coco/annotations/person_keypoints_train2017.json filter=lfs diff=lfs merge=lfs -text
+datasets/coco/annotations/captions_train2017.json filter=lfs diff=lfs merge=lfs -text
