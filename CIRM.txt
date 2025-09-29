@@ -1,0 +1,17 @@
+CIRM/
+├── datasets/
+│   ├── coco/
+│   │   ├── val2017/              # Unzipped val2017 images here
+│   │   └── annotations/          # Unzipped annotation JSONs here
+│   └── vqa/
+│       ├── v2_OpenEnded_mscoco_val2014_questions.json
+│       └── v2_mscoco_val2014_annotations.json
+
+
+CIRM/
+├── app.py                  ← Final Streamlit app will go here
+├── examples/               ← Put sample images here for testing
+├── utils/                  ← Utility code (like YOLO, captioning, VQA)
+├── datasets/               ← You already have this
+│   ├── coco/
+│   └── vqa/
